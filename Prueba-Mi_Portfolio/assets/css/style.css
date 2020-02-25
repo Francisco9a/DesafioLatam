@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+*{
+  box-sizing: border-box;
+}
+main,body{
+    margin: 0px;
+}
+section, footer{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+h1{
+    font-family: 'Oswald', Arial;
+    font-size: 72px;
+}
+.light{
+    font-weight: 200;
+}
+h1.bold{
+    display: inline-block;
+    font-weight: 700;
+    border-top: white solid 1px;
+}
+div.titulo{
+    padding-top: calc(100vh - 107px*2.5 - 84px);
+}
+.navbar-brand{
+    font-family: 'Oswald', Arial;
+    font-weight: 700;
+    font-size: 2em;
+}
+.navbar{
+    background-color: #660066;
+    margin: 0px;
+top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar h1,a{
+    color: #ffffff;
+}
+.hero{
+background-image: url(/assets/img/bg_hero.png);
+background-size: cover;
+background-position: center;
+width: 100vw;
+height: calc(100vh - 40px);
+margin-top: 58px;
+}
+.card{
+    border: 0px;
+}
+hr{
+    width: 111px;
+    border-top: 2px solid #373A3C;
+}
+
+.ultimostrabajos h2, .experiencia h2, footer h2, .contacto h2{
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #373A3C;
+}
+.ultimostrabajos, footer{
+    background-color: #660066;
+    border-top: white;
+}
+.ultimostrabajos h2, footer h2{
+    color: white;
+}
+.ultimostrabajos hr{
+    border-top:  2px solid white;
+}
+.experiencia article{
+    display: inline-block;
+    margin: 0px 70px;
+}
+
+.dosparrafos{
+    padding-top: 20px;
+}
+.dosparrafos p{
+padding: 0px 3%;
+font-size: 1.1em;
+line-height: 2em;
+color: #373A3C;
+}
+.sobremi p{
+    font-family: 'Open Sans';
+    text-align: center;
+font-weight: 600;    
+line-height: 3em;
+font-size: 1.3em;
+}
+
+.experiencia h3{
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 2em;
+    margin-top: 1em;
+    color: #373A3C;
+}
+.experiencia h4{
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 2em;
+    color: #373A3C;
+}
+
+nav{
+    box-shadow: 2px 4px 2px rgb(73, 73, 73);
+}
+
+footer i{
+    color: white;
+    margin: 3%;
+}
+.footer{
+    text-align: center;
+}
+
+.footer h2{
+    display: inline-block;
+    line-height: 1.7EM;
+}
+
+/* .footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.redes{
+    display: flex;
+} */
+
+
+/* footer h2{
+    float: left;
+}
+
+.redes{
+    float: right;
+}
+.redes::after{
+    content: '';
+    clear: both;
+}
+
+.footer{
+    overflow: auto;
+} */
+
