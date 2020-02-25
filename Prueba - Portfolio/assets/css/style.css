@@ -130,29 +130,3 @@ footer i{
     display: inline-block;
     line-height: 1.7EM;
 }
-
-/* .footer{
-    display: flex;
-    justify-content: space-evenly;
-}
-.redes{
-    display: flex;
-} */
-
-
-/* footer h2{
-    float: left;
-}
-
-.redes{
-    float: right;
-}
-.redes::after{
-    content: '';
-    clear: both;
-}
-
-.footer{
-    overflow: auto;
-} */
-
